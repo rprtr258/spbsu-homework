@@ -1,5 +1,3 @@
-3151-3210
-
 3136.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=x&plus;\sqrt{y}\newline&space;Dom(u)=\mathbb{R}\times(\mathbb{R}_&plus;\cup\{0\})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=x&plus;\sqrt{y}\newline&space;Dom(u)=\mathbb{R}\times(\mathbb{R}_&plus;\cup\{0\})" title="\small \newline u=x+\sqrt{y}\newline Dom(u)=\mathbb{R}\times(\mathbb{R}_+\cup\{0\})" /></a>

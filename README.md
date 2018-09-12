@@ -14,7 +14,3 @@
 1) <a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;H<K<G\newline&space;[G:H]<\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;H<K<G\newline&space;[G:H]<\infty" title="\newline H<K<G\newline [G:H]<\infty" /></a>
 
    Доказать, что <a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;[G:H]=[G:K][K:H]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;[G:H]=[G:K][K:H]" title="\newline [G:H]=[G:K][K:H]" /></a>
-
-2) <a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;[G:H]=2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;[G:H]=2" title="\newline [G:H]=2" /></a>
-
-   Доказать, что <a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;\forall&space;g\in&space;G:g^2\in&space;H" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;\forall&space;g\in&space;G:g^2\in&space;H" title="\newline \forall g\in G:g^2\in H" /></a>

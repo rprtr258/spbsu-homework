@@ -1,99 +1,57 @@
 3151-3210
 
 3136.
-u=x+\sqrt{y}\newline
-Dom(u)=\mathbb{R}\times(\mathbb{R}_+\cup\{0\})
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=x&plus;\sqrt{y}\newline&space;Dom(u)=\mathbb{R}\times(\mathbb{R}_&plus;\cup\{0\})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=x&plus;\sqrt{y}\newline&space;Dom(u)=\mathbb{R}\times(\mathbb{R}_&plus;\cup\{0\})" title="\small \newline u=x+\sqrt{y}\newline Dom(u)=\mathbb{R}\times(\mathbb{R}_+\cup\{0\})" /></a>
 
 3137.
-u=\sqrt{1-x^2}+\sqrt{y^2-1}\newline
-1-x^2,y^2-1\geq 0\Rightarrow 1\geq x^2,y^2\geq 1\newline
-x\in[-1,1]\ and\ y\in(-\infty,-1]\cup[1,+\infty)\newline
-Dom(u)=[-1,1]\times(-\infty,-1]\cup[1,+\infty)
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{1-x^2}&plus;\sqrt{y^2-1}\newline&space;1-x^2,y^2-1\geq&space;0\Rightarrow&space;1\geq&space;x^2,y^2\geq&space;1\newline&space;x\in[-1,1]\&space;and\&space;y\in(-\infty,-1]\cup[1,&plus;\infty)\newline&space;Dom(u)=[-1,1]\times(-\infty,-1]\cup[1,&plus;\infty)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{1-x^2}&plus;\sqrt{y^2-1}\newline&space;1-x^2,y^2-1\geq&space;0\Rightarrow&space;1\geq&space;x^2,y^2\geq&space;1\newline&space;x\in[-1,1]\&space;and\&space;y\in(-\infty,-1]\cup[1,&plus;\infty)\newline&space;Dom(u)=[-1,1]\times(-\infty,-1]\cup[1,&plus;\infty)" title="\small \newline u=\sqrt{1-x^2}+\sqrt{y^2-1}\newline 1-x^2,y^2-1\geq 0\Rightarrow 1\geq x^2,y^2\geq 1\newline x\in[-1,1]\ and\ y\in(-\infty,-1]\cup[1,+\infty)\newline Dom(u)=[-1,1]\times(-\infty,-1]\cup[1,+\infty)" /></a>
 
 3138.
-u=\sqrt{1-x^2-y^2}\newline
-1-x^2-y^2\geq 0\Leftrightarrow x^2+y^2\leq 1\newline
-Dom(u)=Cl(B(0,1))
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{1-x^2-y^2}\newline&space;1-x^2-y^2\geq&space;0\Leftrightarrow&space;x^2&plus;y^2\leq&space;1\newline&space;Dom(u)=Cl(B(0,1))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{1-x^2-y^2}\newline&space;1-x^2-y^2\geq&space;0\Leftrightarrow&space;x^2&plus;y^2\leq&space;1\newline&space;Dom(u)=Cl(B(0,1))" title="\small \newline u=\sqrt{1-x^2-y^2}\newline 1-x^2-y^2\geq 0\Leftrightarrow x^2+y^2\leq 1\newline Dom(u)=Cl(B(0,1))" /></a>
 
 3139.
-u=\frac{1}{\sqrt{x^2+y^2-1}}\newline
-x^2+y^2-1>0\Leftrightarrow x^2+y^2>1\newline
-Dom(u)=\mathbb{R}^2\backslash Cl(B(0,1))
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\frac{1}{\sqrt{x^2&plus;y^2-1}}\newline&space;x^2&plus;y^2-1>0\Leftrightarrow&space;x^2&plus;y^2>1\newline&space;Dom(u)=\mathbb{R}^2\backslash&space;Cl(B(0,1))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\frac{1}{\sqrt{x^2&plus;y^2-1}}\newline&space;x^2&plus;y^2-1>0\Leftrightarrow&space;x^2&plus;y^2>1\newline&space;Dom(u)=\mathbb{R}^2\backslash&space;Cl(B(0,1))" title="\small \newline u=\frac{1}{\sqrt{x^2+y^2-1}}\newline x^2+y^2-1>0\Leftrightarrow x^2+y^2>1\newline Dom(u)=\mathbb{R}^2\backslash Cl(B(0,1))" /></a>
 
 3140.
-u=\sqrt{(x^2+y^2-1)(4-x^2-y^2)}\newline
-(x^2+y^2-1)(4-x^2-y^2)\geq 0\Rightarrow(or\ cases)\newline
-\begin{cases}
-x^2+y^2-1\geq 0\ and\ 4-x^2-y^2\geq 0 \\ 
-x^2+y^2-1\leq 0\ and\ 4-x^2-y^2\leq 0
-\end{cases}\Rightarrow\newline
-\begin{cases}
-x^2+y^2\geq 1\ and\ x^2+y^2\leq 4 \\ 
-x^2+y^2\leq 1\ and\ x^2+y^2\geq 4\Rightarrow(x,y)\in\varnothing
-\end{cases}\newline
-Dom(u)=\mathbb{R}^2\backslash B(0,1)\cap Cl(B(0,2))=Cl(B(0,2))\backslash B(0,1)=[1,2]\times S^1
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{(x^2&plus;y^2-1)(4-x^2-y^2)}\newline&space;(x^2&plus;y^2-1)(4-x^2-y^2)\geq&space;0\Rightarrow(or\&space;cases)\newline&space;\begin{cases}&space;x^2&plus;y^2-1\geq&space;0\&space;and\&space;4-x^2-y^2\geq&space;0&space;\\&space;x^2&plus;y^2-1\leq&space;0\&space;and\&space;4-x^2-y^2\leq&space;0&space;\end{cases}\Rightarrow\newline&space;\begin{cases}&space;x^2&plus;y^2\geq&space;1\&space;and\&space;x^2&plus;y^2\leq&space;4&space;\\&space;x^2&plus;y^2\leq&space;1\&space;and\&space;x^2&plus;y^2\geq&space;4\Rightarrow(x,y)\in\varnothing&space;\end{cases}\newline&space;Dom(u)=\mathbb{R}^2\backslash&space;B(0,1)\cap&space;Cl(B(0,2))=Cl(B(0,2))\backslash&space;B(0,1)=[1,2]\times&space;S^1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{(x^2&plus;y^2-1)(4-x^2-y^2)}\newline&space;(x^2&plus;y^2-1)(4-x^2-y^2)\geq&space;0\Rightarrow(or\&space;cases)\newline&space;\begin{cases}&space;x^2&plus;y^2-1\geq&space;0\&space;and\&space;4-x^2-y^2\geq&space;0&space;\\&space;x^2&plus;y^2-1\leq&space;0\&space;and\&space;4-x^2-y^2\leq&space;0&space;\end{cases}\Rightarrow\newline&space;\begin{cases}&space;x^2&plus;y^2\geq&space;1\&space;and\&space;x^2&plus;y^2\leq&space;4&space;\\&space;x^2&plus;y^2\leq&space;1\&space;and\&space;x^2&plus;y^2\geq&space;4\Rightarrow(x,y)\in\varnothing&space;\end{cases}\newline&space;Dom(u)=\mathbb{R}^2\backslash&space;B(0,1)\cap&space;Cl(B(0,2))=Cl(B(0,2))\backslash&space;B(0,1)=[1,2]\times&space;S^1" title="\small \newline u=\sqrt{(x^2+y^2-1)(4-x^2-y^2)}\newline (x^2+y^2-1)(4-x^2-y^2)\geq 0\Rightarrow(or\ cases)\newline \begin{cases} x^2+y^2-1\geq 0\ and\ 4-x^2-y^2\geq 0 \\ x^2+y^2-1\leq 0\ and\ 4-x^2-y^2\leq 0 \end{cases}\Rightarrow\newline \begin{cases} x^2+y^2\geq 1\ and\ x^2+y^2\leq 4 \\ x^2+y^2\leq 1\ and\ x^2+y^2\geq 4\Rightarrow(x,y)\in\varnothing \end{cases}\newline Dom(u)=\mathbb{R}^2\backslash B(0,1)\cap Cl(B(0,2))=Cl(B(0,2))\backslash B(0,1)=[1,2]\times S^1" /></a>
 
 3141.
-u=\sqrt{\frac{x^2+y^2-x}{2x-x^2-y^2}}\newline
-\begin{cases}
-x^2+y^2-x\geq 0\ and\ 2x-x^2-y^2>0\\
-x^2+y^2-x\leq 0\ and\ 2x-x^2-y^2<0
-\end{cases}\newline
-\begin{cases}
-2x>x^2+y^2\geq x\\
-x\geq x^2+y^2>2x\Rightarrow x>2x\Rightarrow x<0\Rightarrow 0>x>x^2+y^2\Rightarrow (x,y)\in\varnothing
-\end{cases}\newline
-2x>x^2+y^2\Leftrightarrow (x-1)^2+y^2<1\newline
-x^2+y^2\geq x\Rightarrow \left(x-\frac{1}{2}\right)^2+y^2\geq\frac{1}{4}\newline
-Dom(u)=B((1,0),1)\backslash B\left(\left(\frac{1}{2},0\right),\frac{1}{2}\right)
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{\frac{x^2&plus;y^2-x}{2x-x^2-y^2}}\newline&space;\begin{cases}&space;x^2&plus;y^2-x\geq&space;0\&space;and\&space;2x-x^2-y^2>0\\&space;x^2&plus;y^2-x\leq&space;0\&space;and\&space;2x-x^2-y^2<0&space;\end{cases}\newline&space;\begin{cases}&space;2x>x^2&plus;y^2\geq&space;x\\&space;x\geq&space;x^2&plus;y^2>2x\Rightarrow&space;x>2x\Rightarrow&space;x<0\Rightarrow&space;0>x>x^2&plus;y^2\Rightarrow&space;(x,y)\in\varnothing&space;\end{cases}\newline&space;2x>x^2&plus;y^2\Leftrightarrow&space;(x-1)^2&plus;y^2<1\newline&space;x^2&plus;y^2\geq&space;x\Rightarrow&space;\left(x-\frac{1}{2}\right)^2&plus;y^2\geq\frac{1}{4}\newline&space;Dom(u)=B((1,0),1)\backslash&space;B\left(\left(\frac{1}{2},0\right),\frac{1}{2}\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{\frac{x^2&plus;y^2-x}{2x-x^2-y^2}}\newline&space;\begin{cases}&space;x^2&plus;y^2-x\geq&space;0\&space;and\&space;2x-x^2-y^2>0\\&space;x^2&plus;y^2-x\leq&space;0\&space;and\&space;2x-x^2-y^2<0&space;\end{cases}\newline&space;\begin{cases}&space;2x>x^2&plus;y^2\geq&space;x\\&space;x\geq&space;x^2&plus;y^2>2x\Rightarrow&space;x>2x\Rightarrow&space;x<0\Rightarrow&space;0>x>x^2&plus;y^2\Rightarrow&space;(x,y)\in\varnothing&space;\end{cases}\newline&space;2x>x^2&plus;y^2\Leftrightarrow&space;(x-1)^2&plus;y^2<1\newline&space;x^2&plus;y^2\geq&space;x\Rightarrow&space;\left(x-\frac{1}{2}\right)^2&plus;y^2\geq\frac{1}{4}\newline&space;Dom(u)=B((1,0),1)\backslash&space;B\left(\left(\frac{1}{2},0\right),\frac{1}{2}\right)" title="\small \newline u=\sqrt{\frac{x^2+y^2-x}{2x-x^2-y^2}}\newline \begin{cases} x^2+y^2-x\geq 0\ and\ 2x-x^2-y^2>0\\ x^2+y^2-x\leq 0\ and\ 2x-x^2-y^2<0 \end{cases}\newline \begin{cases} 2x>x^2+y^2\geq x\\ x\geq x^2+y^2>2x\Rightarrow x>2x\Rightarrow x<0\Rightarrow 0>x>x^2+y^2\Rightarrow (x,y)\in\varnothing \end{cases}\newline 2x>x^2+y^2\Leftrightarrow (x-1)^2+y^2<1\newline x^2+y^2\geq x\Rightarrow \left(x-\frac{1}{2}\right)^2+y^2\geq\frac{1}{4}\newline Dom(u)=B((1,0),1)\backslash B\left(\left(\frac{1}{2},0\right),\frac{1}{2}\right)" /></a>
 
 3142.
-u=\sqrt{1-(x^2+y)^2}\newline
-(x^2+y)^2\leq 1\Leftrightarrow -1\leq x^2+y\leq 1\newline
--1-x^2\leq y\leq 1-x^2
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{1-(x^2&plus;y)^2}\newline&space;(x^2&plus;y)^2\leq&space;1\Leftrightarrow&space;-1\leq&space;x^2&plus;y\leq&space;1\newline&space;-1-x^2\leq&space;y\leq&space;1-x^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{1-(x^2&plus;y)^2}\newline&space;(x^2&plus;y)^2\leq&space;1\Leftrightarrow&space;-1\leq&space;x^2&plus;y\leq&space;1\newline&space;-1-x^2\leq&space;y\leq&space;1-x^2" title="\small \newline u=\sqrt{1-(x^2+y)^2}\newline (x^2+y)^2\leq 1\Leftrightarrow -1\leq x^2+y\leq 1\newline -1-x^2\leq y\leq 1-x^2" /></a>
 
 3143.
-u=ln(-x-y)\newline
--x-y>0\Leftrightarrow x+y<0\Rightarrow y<-x
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=ln(-x-y)\newline&space;-x-y>0\Leftrightarrow&space;x&plus;y<0\Rightarrow&space;y<-x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=ln(-x-y)\newline&space;-x-y>0\Leftrightarrow&space;x&plus;y<0\Rightarrow&space;y<-x" title="\small \newline u=ln(-x-y)\newline -x-y>0\Leftrightarrow x+y<0\Rightarrow y<-x" /></a>
 
 3144.
-u=asin\left(\frac{y}{x}\right)\Rightarrow \frac{y}{x}\in[-1,1]\newline
--1\leq\frac{y}{x}\leq 1\newline
--x\leq y\leq x,x>0\newline
-x\leq y\leq -x,x<0
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=asin\left(\frac{y}{x}\right)\Rightarrow&space;\frac{y}{x}\in[-1,1]\newline&space;-1\leq\frac{y}{x}\leq&space;1\newline&space;-x\leq&space;y\leq&space;x,x>0\newline&space;x\leq&space;y\leq&space;-x,x<0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=asin\left(\frac{y}{x}\right)\Rightarrow&space;\frac{y}{x}\in[-1,1]\newline&space;-1\leq\frac{y}{x}\leq&space;1\newline&space;-x\leq&space;y\leq&space;x,x>0\newline&space;x\leq&space;y\leq&space;-x,x<0" title="\small \newline u=asin\left(\frac{y}{x}\right)\Rightarrow \frac{y}{x}\in[-1,1]\newline -1\leq\frac{y}{x}\leq 1\newline -x\leq y\leq x,x>0\newline x\leq y\leq -x,x<0" /></a>
 
 3145.
-u=acos\left(\frac{x}{x+y}\right)\Rightarrow \frac{x}{x+y}\in[-1,1]\newline
--1\leq\frac{x}{x+y}\leq 1\newline
-\begin{cases}
--x-y\leq x\leq x+y,\ \ \ \ y>-x\\
-x+y\leq x\leq -x-y,\ \ \ \ y<-x
-\end{cases}\newline
-\begin{cases}
--2x-y\leq 0\leq y,\ \ \ \ y>-x\\
-y\leq 0\leq -2x-y,\ \ \ \ y<-x
-\end{cases}\newline
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=acos\left(\frac{x}{x&plus;y}\right)\Rightarrow&space;\frac{x}{x&plus;y}\in[-1,1]\newline&space;-1\leq\frac{x}{x&plus;y}\leq&space;1\newline&space;\begin{cases}&space;-x-y\leq&space;x\leq&space;x&plus;y,\&space;\&space;\&space;\&space;y>-x\\&space;x&plus;y\leq&space;x\leq&space;-x-y,\&space;\&space;\&space;\&space;y<-x&space;\end{cases}\newline&space;\begin{cases}&space;-2x-y\leq&space;0\leq&space;y,\&space;\&space;\&space;\&space;y>-x\\&space;y\leq&space;0\leq&space;-2x-y,\&space;\&space;\&space;\&space;y<-x&space;\end{cases}\newline" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=acos\left(\frac{x}{x&plus;y}\right)\Rightarrow&space;\frac{x}{x&plus;y}\in[-1,1]\newline&space;-1\leq\frac{x}{x&plus;y}\leq&space;1\newline&space;\begin{cases}&space;-x-y\leq&space;x\leq&space;x&plus;y,\&space;\&space;\&space;\&space;y>-x\\&space;x&plus;y\leq&space;x\leq&space;-x-y,\&space;\&space;\&space;\&space;y<-x&space;\end{cases}\newline&space;\begin{cases}&space;-2x-y\leq&space;0\leq&space;y,\&space;\&space;\&space;\&space;y>-x\\&space;y\leq&space;0\leq&space;-2x-y,\&space;\&space;\&space;\&space;y<-x&space;\end{cases}\newline" title="\small \newline u=acos\left(\frac{x}{x+y}\right)\Rightarrow \frac{x}{x+y}\in[-1,1]\newline -1\leq\frac{x}{x+y}\leq 1\newline \begin{cases} -x-y\leq x\leq x+y,\ \ \ \ y>-x\\ x+y\leq x\leq -x-y,\ \ \ \ y<-x \end{cases}\newline \begin{cases} -2x-y\leq 0\leq y,\ \ \ \ y>-x\\ y\leq 0\leq -2x-y,\ \ \ \ y<-x \end{cases}\newline" /></a>
 
 3146.
-u=asin\left(\frac{x}{y^2}\right)+asin(1-y)\newline
-1-y\in[-1,1]\ and\ \frac{x}{y^2}\in[-1,1]\newline
-\begin{cases}
-2\geq y>0\\
--y^2\leq x\leq y^2\Rightarrow y\geq\sqrt{x},y^2\geq -x\Rightarrow y\geq\sqrt{-x}
-\end{cases}
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=asin\left(\frac{x}{y^2}\right)&plus;asin(1-y)\newline&space;1-y\in[-1,1]\&space;and\&space;\frac{x}{y^2}\in[-1,1]\newline&space;\begin{cases}&space;2\geq&space;y>0\\&space;-y^2\leq&space;x\leq&space;y^2\Rightarrow&space;y\geq\sqrt{x},y^2\geq&space;-x\Rightarrow&space;y\geq\sqrt{-x}&space;\end{cases}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=asin\left(\frac{x}{y^2}\right)&plus;asin(1-y)\newline&space;1-y\in[-1,1]\&space;and\&space;\frac{x}{y^2}\in[-1,1]\newline&space;\begin{cases}&space;2\geq&space;y>0\\&space;-y^2\leq&space;x\leq&space;y^2\Rightarrow&space;y\geq\sqrt{x},y^2\geq&space;-x\Rightarrow&space;y\geq\sqrt{-x}&space;\end{cases}" title="\small \newline u=asin\left(\frac{x}{y^2}\right)+asin(1-y)\newline 1-y\in[-1,1]\ and\ \frac{x}{y^2}\in[-1,1]\newline \begin{cases} 2\geq y>0\\ -y^2\leq x\leq y^2\Rightarrow y\geq\sqrt{x},y^2\geq -x\Rightarrow y\geq\sqrt{-x} \end{cases}" /></a>
 
 3147.
-u=\sqrt{sin(x^2+y^2)}\newline
-sin(x^2+y^2)\geq 0\Rightarrow 2k\pi\leq x^2+y^2\leq (2k+1)\pi\ \ \forall k\in\mathbb{N}_0
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{sin(x^2&plus;y^2)}\newline&space;sin(x^2&plus;y^2)\geq&space;0\Rightarrow&space;2k\pi\leq&space;x^2&plus;y^2\leq&space;(2k&plus;1)\pi\&space;\&space;\forall&space;k\in\mathbb{N}_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=\sqrt{sin(x^2&plus;y^2)}\newline&space;sin(x^2&plus;y^2)\geq&space;0\Rightarrow&space;2k\pi\leq&space;x^2&plus;y^2\leq&space;(2k&plus;1)\pi\&space;\&space;\forall&space;k\in\mathbb{N}_0" title="\small \newline u=\sqrt{sin(x^2+y^2)}\newline sin(x^2+y^2)\geq 0\Rightarrow 2k\pi\leq x^2+y^2\leq (2k+1)\pi\ \ \forall k\in\mathbb{N}_0" /></a>
 
 3148.
-u=acos\left(\frac{z}{\sqrt{x^2+y^2}}\right)\Rightarrow \frac{z}{\sqrt{x^2+y^2}}\in[-1,1]\newline
--\sqrt{x^2+y^2}\leq z\leq \sqrt{x^2+y^2}\newline
-z^2\leq x^2+y^2,(x,y,z)\neq(0,0,0)
-3149.
-u=ln(xyz)\newline
-xyz>0
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=acos\left(\frac{z}{\sqrt{x^2&plus;y^2}}\right)\Rightarrow&space;\frac{z}{\sqrt{x^2&plus;y^2}}\in[-1,1]\newline&space;-\sqrt{x^2&plus;y^2}\leq&space;z\leq&space;\sqrt{x^2&plus;y^2}\newline&space;z^2\leq&space;x^2&plus;y^2,(x,y,z)\neq(0,0,0)&space;3149.&space;u=ln(xyz)\newline&space;xyz>0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=acos\left(\frac{z}{\sqrt{x^2&plus;y^2}}\right)\Rightarrow&space;\frac{z}{\sqrt{x^2&plus;y^2}}\in[-1,1]\newline&space;-\sqrt{x^2&plus;y^2}\leq&space;z\leq&space;\sqrt{x^2&plus;y^2}\newline&space;z^2\leq&space;x^2&plus;y^2,(x,y,z)\neq(0,0,0)&space;3149.&space;u=ln(xyz)\newline&space;xyz>0" title="\small \newline u=acos\left(\frac{z}{\sqrt{x^2+y^2}}\right)\Rightarrow \frac{z}{\sqrt{x^2+y^2}}\in[-1,1]\newline -\sqrt{x^2+y^2}\leq z\leq \sqrt{x^2+y^2}\newline z^2\leq x^2+y^2,(x,y,z)\neq(0,0,0) 3149. u=ln(xyz)\newline xyz>0" /></a>
 
 3150.
-u=ln(-1-x^2-y^2+z^2)\newline
-x^2+y^2-z^2<-1
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{120}&space;\small&space;\newline&space;u=ln(-1-x^2-y^2&plus;z^2)\newline&space;x^2&plus;y^2-z^2<-1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{120}&space;\small&space;\newline&space;u=ln(-1-x^2-y^2&plus;z^2)\newline&space;x^2&plus;y^2-z^2<-1" title="\small \newline u=ln(-1-x^2-y^2+z^2)\newline x^2+y^2-z^2<-1" /></a>

@@ -1,0 +1,99 @@
+3151-3210
+
+3136.
+u=x+\sqrt{y}\newline
+Dom(u)=\mathbb{R}\times(\mathbb{R}_+\cup\{0\})
+
+3137.
+u=\sqrt{1-x^2}+\sqrt{y^2-1}\newline
+1-x^2,y^2-1\geq 0\Rightarrow 1\geq x^2,y^2\geq 1\newline
+x\in[-1,1]\ and\ y\in(-\infty,-1]\cup[1,+\infty)\newline
+Dom(u)=[-1,1]\times(-\infty,-1]\cup[1,+\infty)
+
+3138.
+u=\sqrt{1-x^2-y^2}\newline
+1-x^2-y^2\geq 0\Leftrightarrow x^2+y^2\leq 1\newline
+Dom(u)=Cl(B(0,1))
+
+3139.
+u=\frac{1}{\sqrt{x^2+y^2-1}}\newline
+x^2+y^2-1>0\Leftrightarrow x^2+y^2>1\newline
+Dom(u)=\mathbb{R}^2\backslash Cl(B(0,1))
+
+3140.
+u=\sqrt{(x^2+y^2-1)(4-x^2-y^2)}\newline
+(x^2+y^2-1)(4-x^2-y^2)\geq 0\Rightarrow(or\ cases)\newline
+\begin{cases}
+x^2+y^2-1\geq 0\ and\ 4-x^2-y^2\geq 0 \\ 
+x^2+y^2-1\leq 0\ and\ 4-x^2-y^2\leq 0
+\end{cases}\Rightarrow\newline
+\begin{cases}
+x^2+y^2\geq 1\ and\ x^2+y^2\leq 4 \\ 
+x^2+y^2\leq 1\ and\ x^2+y^2\geq 4\Rightarrow(x,y)\in\varnothing
+\end{cases}\newline
+Dom(u)=\mathbb{R}^2\backslash B(0,1)\cap Cl(B(0,2))=Cl(B(0,2))\backslash B(0,1)=[1,2]\times S^1
+
+3141.
+u=\sqrt{\frac{x^2+y^2-x}{2x-x^2-y^2}}\newline
+\begin{cases}
+x^2+y^2-x\geq 0\ and\ 2x-x^2-y^2>0\\
+x^2+y^2-x\leq 0\ and\ 2x-x^2-y^2<0
+\end{cases}\newline
+\begin{cases}
+2x>x^2+y^2\geq x\\
+x\geq x^2+y^2>2x\Rightarrow x>2x\Rightarrow x<0\Rightarrow 0>x>x^2+y^2\Rightarrow (x,y)\in\varnothing
+\end{cases}\newline
+2x>x^2+y^2\Leftrightarrow (x-1)^2+y^2<1\newline
+x^2+y^2\geq x\Rightarrow \left(x-\frac{1}{2}\right)^2+y^2\geq\frac{1}{4}\newline
+Dom(u)=B((1,0),1)\backslash B\left(\left(\frac{1}{2},0\right),\frac{1}{2}\right)
+
+3142.
+u=\sqrt{1-(x^2+y)^2}\newline
+(x^2+y)^2\leq 1\Leftrightarrow -1\leq x^2+y\leq 1\newline
+-1-x^2\leq y\leq 1-x^2
+
+3143.
+u=ln(-x-y)\newline
+-x-y>0\Leftrightarrow x+y<0\Rightarrow y<-x
+
+3144.
+u=asin\left(\frac{y}{x}\right)\Rightarrow \frac{y}{x}\in[-1,1]\newline
+-1\leq\frac{y}{x}\leq 1\newline
+-x\leq y\leq x,x>0\newline
+x\leq y\leq -x,x<0
+
+3145.
+u=acos\left(\frac{x}{x+y}\right)\Rightarrow \frac{x}{x+y}\in[-1,1]\newline
+-1\leq\frac{x}{x+y}\leq 1\newline
+\begin{cases}
+-x-y\leq x\leq x+y,\ \ \ \ y>-x\\
+x+y\leq x\leq -x-y,\ \ \ \ y<-x
+\end{cases}\newline
+\begin{cases}
+-2x-y\leq 0\leq y,\ \ \ \ y>-x\\
+y\leq 0\leq -2x-y,\ \ \ \ y<-x
+\end{cases}\newline
+
+3146.
+u=asin\left(\frac{x}{y^2}\right)+asin(1-y)\newline
+1-y\in[-1,1]\ and\ \frac{x}{y^2}\in[-1,1]\newline
+\begin{cases}
+2\geq y>0\\
+-y^2\leq x\leq y^2\Rightarrow y\geq\sqrt{x},y^2\geq -x\Rightarrow y\geq\sqrt{-x}
+\end{cases}
+
+3147.
+u=\sqrt{sin(x^2+y^2)}\newline
+sin(x^2+y^2)\geq 0\Rightarrow 2k\pi\leq x^2+y^2\leq (2k+1)\pi\ \ \forall k\in\mathbb{N}_0
+
+3148.
+u=acos\left(\frac{z}{\sqrt{x^2+y^2}}\right)\Rightarrow \frac{z}{\sqrt{x^2+y^2}}\in[-1,1]\newline
+-\sqrt{x^2+y^2}\leq z\leq \sqrt{x^2+y^2}\newline
+z^2\leq x^2+y^2,(x,y,z)\neq(0,0,0)
+3149.
+u=ln(xyz)\newline
+xyz>0
+
+3150.
+u=ln(-1-x^2-y^2+z^2)\newline
+x^2+y^2-z^2<-1

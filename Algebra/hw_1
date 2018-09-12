@@ -1,0 +1,68 @@
+Check group structure:
+1) G=\mathbb{R}\backslash\{-1\}, a*b=ab+a+b
+Solution:
+\{a\neq -1\Leftrightarrow(a+1)\neq 0\}\newline
+\{a*b=ab+a+b\neq -1\ since\ otherwise\ ab+a+b+1=0=(a+1)(b+1)\Leftrightarrow a=-1\ or\ b=-1\}\newline
+[a:x\to(a+1)x]\newline
+[a\circ b=(x\to(a+1)x)(x\to(b+1)x)=(x\to(a+1)(b+1)x)=\newline
+=(x\to((ab+a+b)+1)x)=ab+a+b]\newline
+(a*b)*c=(ab+a+b)*c=abc+ac+bc+c+ab+a+b+c=\newline
+=abc+ac+bc+ab+a+b+c\newline
+a*(b*c)=a*(bc+b+c)=abc+ab+ac+a+bc+b+c=\newline
+=abc+ac+bc+ab+a+b+c=(a*b)*c\newline
+a*e=e*a=a=ae+a+e\Rightarrow ae=-e\Rightarrow e=0\newline
+[e:x\to x=x\to(e+1)x\Rightarrow e+1=1\Leftrightarrow e=0]\newline
+a*a^{-1}=0=aa^{-1}+a+a^{-1}=a^{-1}(a+1)+a\Rightarrow a^{-1}=\frac{-a}{a+1}\newline
+\left[a^{-1}:(a+1)x\to x=x\to\frac{x}{a+1}=x\to\left(\frac{-a}{a+1}+1\right)x\right]
+
+2) G = \left\{\begin{pmatrix}
+0 & \alpha & \beta\\ 
+0 & 0 & \gamma\\ 
+0 & 0 & 0
+\end{pmatrix}, A*B=A+B+\frac{1}{2}(AB-BA)\right\}
+Solution:
+$G = \left\{\begin{pmatrix}
+0 & \alpha & \beta\\ 
+0 & 0 & \gamma\\ 
+0 & 0 & 0
+\end{pmatrix}, A*B=A+B+\frac{1}{2}(AB-BA)\right\}$
+Function is:
+$(a,b,c):(x,y,z)\to (a+x, b+y+\frac{1}{2}(az-cx), c+z)$
+$A*B=\begin{pmatrix}
+0 & a_1 & a_2\\ 
+0 & 0 & a_3\\ 
+0 & 0 & 0
+\end{pmatrix}*\begin{pmatrix}
+0 & b_1 & b_2\\ 
+0 & 0 & b_3\\ 
+0 & 0 & 0
+\end{pmatrix}=\begin{pmatrix}
+0 & a_1+b_1 & a_2+b_2+\frac{1}{2}(a_1b_3-a_3b_1)\\ 
+0 & 0 & a_3+b_3\\ 
+0 & 0 & 0
+\end{pmatrix}$
+Will\ write\ $\begin{pmatrix}
+0 & \alpha & \beta\\ 
+0 & 0 & \gamma\\ 
+0 & 0 & 0
+\end{pmatrix}$ as $(\alpha, \beta, \gamma)$, so
+$(a_1,a_2,a_3)(b_1,b_2,b_3)=(a_1+b_1,a_2+b_2+\frac{1}{2}(a_1b_3-a_3b_1),a_3+b_3)$
+$C=(c_1,c_2,c_3)$
+$(AB)C=(a_1+b_1,a_2+b_2+\frac{1}{2}(a_1b_3-a_3b_1),a_3+b_3)(c_1,c_2,c_3)=\newline
+=(a_1+b_1+c_1,a_2+b_2+\frac{1}{2}(a_1b_3-a_3b_1)+c_2+\frac{1}{2}((a_1+b_1)c_3-(a_3+b_3)c_1),a_3+b_3+c_3)=\newline
+=(a_1+b_1+c_1,a_2+b_2+c_2+\frac{1}{2}(a_1b_3+a_1c_3+b_1c_3-a_3b_1-a_3c_1-b_3c_1),a_3+b_3+c_3)$
+$A(BC)=(a_1,a_2,a_3)(b_1+c_1,b_2+c_2+\frac{1}{2}(b_1c_3-b_3c_1),b_3+c_3)=\newline
+=(a_1+b_1+c_1,a_2+b_2+c_2+\frac{1}{2}(b_1c_3-b_3c_1)+\frac{1}{2}(a_1(b_3+c_3)-a_3(b_1+c_1)),a_3+b_3+c_3)=\newline
+=(a_1+b_1+c_1,a_2+b_2+c_2+\frac{1}{2}(b_1c_3+a_1b_3+a_1c_3-b_3c_1-a_3b_1-a_3c_1),a_3+b_3+c_3)=(AB)C$
+$e=(e_1,e_2,e_3)$
+$Ae=eA=A$
+$(a_1+e_1,a_2+e_2+\frac{1}{2}(a_1e_3-a_3e_1),a_3+e_3)=\newline
+=(a_1+e_1,a_2+e_2+\frac{1}{2}(e_1a_3-e_3a_1),a_3+e_3)=\newline
+=(a_1,a_2,a_3)\Rightarrow e_1=e_3=0$
+$(a_1,a_2+e_2,a_3)=(a_1,a_2,a_3)\Rightarrow e_2=0\Rightarrow e=(0,0,0)$
+$A^{-1}=(a_1^{-1},a_2^{-1},a_3^{-1})$
+$AA^{-1}=(a_1+a_1^{-1},a_2+a_2^{-1}+\frac{1}{2}(a_1a_3^{-1}-a_3a_1^{-1}),a_3+a_3^{-1})=(0,0,0)=e\newline
+\Rightarrow a_1^{-1}=-a_1, a_3^{-1}=-a_3$
+$AA^{-1}=(0,a_2+a_2^{-1},0)=(0,0,0)\Rightarrow a_2^{-1}=-a_2$
+$A^{-1}=(-a_1,-a_2,-a_3)$
+$A^{-1}A=(0, \frac{1}{2}(a_1(-a_3)-a_3(-a_1)), 0)=(0,0,0)=e$

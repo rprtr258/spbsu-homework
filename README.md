@@ -9,7 +9,6 @@
 
 **Differential equations** *hw_2*:
 1) <a href="https://www.codecogs.com/eqnedit.php?latex=y'=sin(y)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y'=sin(y)" title="y'=sin(y)" /></a> Доказать, что решение ограничено
-2) 56
 
 **Algebra** *hw_2*:
 1) <a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;H<K<G\newline&space;[G:H]<\infty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;H<K<G\newline&space;[G:H]<\infty" title="\newline H<K<G\newline [G:H]<\infty" /></a>

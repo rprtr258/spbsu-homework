@@ -1,3 +1,9 @@
+0)<a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;y'=sin(y),is\&space;y\&space;bounded?\newline" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;y'=sin(y),is\&space;y\&space;bounded?\newline" title="\newline y'=sin(y),is\ y\ bounded?\newline" /></a>
+
+Solution:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;\mathbb{R}^2-unique\&space;solution\&space;area\newline&space;\forall&space;k\in\mathbb{Z}:y=\pi&space;k-solution\Rightarrow\forall&space;y=\phi(x)-solution:\newline&space;\phi(x)=\pi&space;k,&space;k\in\mathbb{Z}\&space;or\newline&space;\pi(k-1)<\phi(x)<\pi&space;k,&space;k\in\mathbb{Z}\newline&space;\Rightarrow&space;y\&space;is\&space;bounded" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;\mathbb{R}^2-unique\&space;solution\&space;area\newline&space;\forall&space;k\in\mathbb{Z}:y=\pi&space;k-solution\Rightarrow\forall&space;y=\phi(x)-solution:\newline&space;\phi(x)=\pi&space;k,&space;k\in\mathbb{Z}\&space;or\newline&space;\pi(k-1)<\phi(x)<\pi&space;k,&space;k\in\mathbb{Z}\newline&space;\Rightarrow&space;y\&space;is\&space;bounded" title="\newline \mathbb{R}^2-unique\ solution\ area\newline \forall k\in\mathbb{Z}:y=\pi k-solution\Rightarrow\forall y=\phi(x)-solution:\newline \phi(x)=\pi k, k\in\mathbb{Z}\ or\newline \pi(k-1)<\phi(x)<\pi k, k\in\mathbb{Z}\newline \Rightarrow y\ is\ bounded" /></a>
+
 55)<a href="https://www.codecogs.com/eqnedit.php?latex=\newline&space;y'=\sqrt[3]{y^2},y(2)=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\newline&space;y'=\sqrt[3]{y^2},y(2)=0" title="\newline y'=\sqrt[3]{y^2},y(2)=0" /></a>
 
 Solution:

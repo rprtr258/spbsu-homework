@@ -12,6 +12,6 @@ r=ce^\phi
 3) Найти нормальные подгруппы Q=<i,j,k>
 
 **Differential equations** *hw_3*:
-1)y'=-x/y
-2)y'=y-x^2
-3)2(y+y')=x+3
+1) y'=-x/y
+2) y'=y-x^2
+3) 2(y+y')=x+3
